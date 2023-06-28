@@ -68,3 +68,9 @@ body {
 .calculator-grid > .opr{
   background-color: orange;
 }
+
+@media (max-width: 767px) {
+  .calculator-grid > button {
+    font-size: medium;
+  }
+}
